@@ -29,6 +29,7 @@ let package = Package(
         ),
         .target(name: "UltraliteSDKTarget",
                 dependencies: [.product(name: "MessagePack", package: "MessagePack.swift"),
-                               .targetItem(name: "UltraliteSDKBinary", condition: nil)])
+                               .targetItem(name: "UltraliteSDKBinary", condition: nil)],
+               sources: ["Sources"])
     ]
 )
