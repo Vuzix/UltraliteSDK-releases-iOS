@@ -23,7 +23,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "UltraliteSDKBinary",
-            url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS/raw/main/UltraliteSDK.zip",
+            url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases/download/v0.1/UltraliteSDK.zip",
             checksum: "040c13d331395bbfed73ce487fbbd7c882807246a59b003d9bbb396a4c2d225b"
         ),
     ]
