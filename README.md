@@ -16,7 +16,7 @@ You can do this one of two ways:
 
 1. in Xcode, go to project settings and tap the Package Dependencies tab, tap the plus sign to add a new dependency
 1. in Package.swift, declare a new dependency
-	```
+```
 	dependencies: [
         .package(url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS", branch: "main"),
     ],
