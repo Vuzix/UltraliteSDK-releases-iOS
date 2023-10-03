@@ -7,6 +7,7 @@ let package = Package(
     platforms: [
         .iOS(.v14),
         .watchOS(.v9),
+        .macOS(.v11),
     ],
     products: [
         .library(name: "UltraliteFonts", targets: ["UltraliteFonts"]),
@@ -27,7 +28,7 @@ let package = Package(
         .binaryTarget(
                 name: "UltraliteSDKBinary",
                 url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases/download/v0.5/UltraliteSDK.zip",
-                checksum: "e8ba6d7645af4d46bf0876fcd38c4a4c06efafad2779cc9733c4b6a4f0f7fce8"
+                checksum: "188f14351491118f69c57a854435061701d4d7e603d4bfeede0db41edd061f2e"
             ),
     ]
 )
