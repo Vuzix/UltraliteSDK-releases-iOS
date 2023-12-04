@@ -10,25 +10,15 @@ let package = Package(
         .macOS(.v11),
     ],
     products: [
-        .library(name: "UltraliteFonts", targets: ["UltraliteFonts"]),
         .library(
             name: "UltraliteSDK",
             targets: ["UltraliteSDK"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/a2/MessagePack.swift.git",from: Version(stringLiteral: "4.0.0")),
-    ],
     targets: [
-        .target(name: "UltraliteFonts",
-                dependencies: [],
-                resources: [
-                    .copy("Resources"),
-                ]),
-        
         .binaryTarget(
                 name: "UltraliteSDK",
-                url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases/download/v1.0/UltraliteSDK.zip",
-                checksum: "188f14351491118f69c57a854435061701d4d7e603d4bfeede0db41edd061f2e"
+                url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases/download/v1.1/UltraliteSDK.zip",
+                checksum: "37e221c0f11541fce4c58444f48e8c92d568851a09125badebb0b3c8046bb573"
             ),
     ]
 )
