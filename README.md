@@ -99,7 +99,7 @@ API level documentation is available [HERE](https://vuzix.github.io/UltraliteSDK
 
 
 ### Sample App
-Sample code showing several example use cases is available [here](https://github.com/Vuzix/UltraliteSDK-releases-iOS/tree/main/sample).
+Sample code showing several example use cases is available [here](https://github.com/Vuzix/ultralite-sdk-ios-sample).
 
 ## Legal
 Use of the SDK is available to developers agreeing to the
