@@ -9,7 +9,7 @@ Use this library to connect your iOS, WatchOS, or MacOS app to the Vuzix Z100™
 
 
 ## Installation 
-You can install this library two different ways, eaither using swift package manager or by embedding the framework.
+You can install this library two different ways, either using swift package manager or by embedding the framework.
 ### using Swift Package Manager
 
 You can easily integrate the UltraliteSDK in your app with Swift Package Manager. 
@@ -32,12 +32,12 @@ OR
 download the [release zip](https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases) file in this repo, unzip it and include the xcFramework in your workspace. Don't forget to link `UltraliteSDK` library to your target.  
 
 ## Usage
-To easily start there are two classes of convience within the SDK.  
-(*You do not have to use these classes.  They are simiply for quickness and convinence.  If you need your own custom experience, everything done in these two classes is public in the SDK.*) 
+To easily start there are two classes of convenience within the SDK.  
+(*You do not have to use these classes.  They are simply for quickness and convenience.  If you need your own custom experience, everything done in these two classes is public in the SDK.*) 
 ### Ultralite Picker Controller
-The Ultralite Picker Control shows an alert style dialog over the current context.  The dialog allows the user to select a pair of glasses to communicate with.  Behind the scenes, it will do all the bluetooth scanning, finding paired and nearby devices, and communicating, so the user can focus on selecting a pair of Vuzix Z100™. 
+The Ultralite Picker Control shows an alert style dialog over the current context.  The dialog allows the user to select a pair of glasses to communicate with.  Behind the scenes, it will do all the Bluetooth scanning, finding paired and nearby devices, and communicating, so the user can focus on selecting a pair of Vuzix Z100™. 
 ### Ultralite Base View Contoller
-Allows any UIViewController to inherit this View Controller functionality.  You can easily lanch the pairing picker, start and stop control of the Vuzix Z100™, along with listening to all the events such as onTap, onPowerButton, onDisplayTimeout, etc. 
+Allows any UIViewController to inherit this View Controller functionality.  You can easily launch the pairing picker, start and stop control of the Vuzix Z100™, along with listening to all the events such as onTap, onPowerButton, onDisplayTimeout, etc. 
 
 ```
 class MyViewController: UltraliteBaseViewController {
