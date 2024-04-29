@@ -17,8 +17,8 @@ let package = Package(
     targets: [
         .binaryTarget(
                 name: "UltraliteSDK",
-                url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases/download/v1.2/UltraliteSDK.zip",
-                checksum: "9d8a037c0c01269bf3b8e2f88be8f7c556a01caec705ac1f3e0234e0ac6839e2"
+                url: "https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases/download/v1.4/UltraliteSDK.zip",
+                checksum: "b09e7421735038c68bc405a99c8dd0243fb29253fbdeeab668a4681d7a335850"
             ),
     ]
 )
