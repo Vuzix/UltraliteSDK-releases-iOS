@@ -9,8 +9,8 @@ Use this library to connect your iOS, WatchOS, or MacOS app to the Vuzix Z100™
 
 
 ## Installation 
-You can install this library two different ways, either using swift package manager or by embedding the framework.
-### using Swift Package Manager
+You can install this library three different ways, swift package manager, cocoapods or by embedding the framework.
+### Swift Package Manager
 
 You can easily integrate the UltraliteSDK in your app with Swift Package Manager. 
 
@@ -28,7 +28,13 @@ OR
     ],
 ```
 
-### using EMBEDED Framework
+### CocoaPods
+In your podfile ...
+```
+pod 'UltraliteSDK'
+```
+
+### EMBEDED Framework
 download the [release zip](https://github.com/Vuzix/UltraliteSDK-releases-iOS/releases) file in this repo, unzip it and include the xcFramework in your workspace. Don't forget to link `UltraliteSDK` library to your target.  
 
 ## Usage
